@@ -121,8 +121,25 @@ section::before{
     grid-area: work-3;
 }
 
+.contact{
+    padding: 128px;
+}
+
 #work-3:hover::after{
     content: "Restaurant Web";
+}
+
+.contact::before{
+    content: "Contact";
+}
+
+.contact-form{
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label{
+    font-weight: 700;
 }
 
 @keyframes upDown{
